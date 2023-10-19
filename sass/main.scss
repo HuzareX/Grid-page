@@ -88,7 +88,7 @@ h1.company-name {
 	&__bg-icon-two {
 		position: absolute;
 		z-index: -5;
-		opacity: 0.5;
+		opacity: 0.1;
 	}
 
 	&__bg-icon-one {
@@ -158,20 +158,7 @@ h1.company-name {
 			color: $gold
 		}
 
-		&::before {
-			position: absolute;
-			top: 0;
-			left: 0;
-			content: '';
-			width: 100%;
-			height: 100%;
-			border: 1px solid $gold;
-			opacity: 0;
 
-			&:hover::before {
-				animation: pulse 1s;
-			}
-		}
 	}
 }
 
